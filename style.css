@@ -1,0 +1,39 @@
+ul,li {
+    size:18px;
+}
+.accordion {
+    background-color: #eeeeee;
+    color: #514b49;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  .active, .accordion:hover {
+    background-color: #bd4c05;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  h2{
+    color: #cd3000;
+  }
+  h3{
+    color: #cc2c04;
+  }
+  a{
+    color: #ec6238;
+  }
+  a:hover{
+    letter-spacing: 2px;
+    size: 20px;
+  }
+  a:visited{
+    color: #30776b;
+  }
