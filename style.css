@@ -1,19 +1,23 @@
+html{
+  font-family:'Courier New', Courier, monospace;
+}
 ul,li {
     size:18px;
 }
 .accordion {
-    background-color: #eeeeee;
-    color: #514b49;
+  font-family: 'Courier New', Courier, monospace;
+    color: #292828;
     cursor: pointer;
-    padding: 18px;
+    padding: 15px;
     width: 100%;
+    font-size: medium;
     text-align: left;
     border: none;
     outline: none;
     transition: 0.4s;
   }
   .active, .accordion:hover {
-    background-color: #bd4c05;
+    background-color: #fb8865;
   }
   .panel {
     padding: 0 18px;
@@ -21,8 +25,8 @@ ul,li {
     display: none;
     overflow: hidden;
   }
-  h2{
-    color: #cd3000;
+  h1{
+    color: #e04313;
   }
   h3{
     color: #cc2c04;
