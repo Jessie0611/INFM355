@@ -17,7 +17,7 @@ ul,li {
     transition: 0.4s;
   }
   .active, .accordion:hover {
-    background-color: #fb8865;
+    background-color: #f48c6d;
   }
   .panel {
     padding: 0 18px;
@@ -29,10 +29,10 @@ ul,li {
     color: #e04313;
   }
   h3{
-    color: #cc2c04;
+    color: #d33c16;
   }
   a{
-    color: #ec6238;
+    color: #e04313;
   }
   a:hover{
     letter-spacing: 2px;
